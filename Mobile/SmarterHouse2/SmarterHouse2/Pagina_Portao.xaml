@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SmarterHouse2.Pagina_Portao"
+             Title="Portão"
+             xmlns:local ="clr-namespace:SmarterHouse2">
+    <ContentPage.Content>
+        <ScrollView BackgroundColor="#E5EEC7">
+            <StackLayout Padding="30,30,30,20">
+                <Grid VerticalOptions="CenterAndExpand"
+                      RowSpacing="25"
+                      Padding="10,50">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="125"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="125"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Button BackgroundColor="#5A5050"
+                            CornerRadius="5"
+                            Text=""
+                            TextColor="#E5EEC7"
+                            FontSize="Large"
+                            FontAttributes="Bold"
+                            Grid.Row="0"
+                            Grid.Column="0"
+                            Clicked="Abrir_Clicked"
+                            x:Name="btn_portao"/>
+
+                    <Frame Grid.Row="2"
+                           CornerRadius="5"
+                           BackgroundColor="#A2D4AB"
+                           Padding="0"
+                           WidthRequest="250"
+                           HeightRequest="50"
+                           HorizontalOptions="CenterAndExpand"
+                           VerticalOptions="CenterAndExpand">
+                        
+                    </Frame>
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Servidor.EnviarHorarios">
+    <Position X="4.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAEAAAAAAIgABgAAAAAAAAAIAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>EnviarHorarios.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Servidor.Model.InfoMod">
+    <Position X="10.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAiAAQAAAAAAAAAAAAAAAAAAAAAAwAAAAAA=</HashCode>
+      <FileName>Model\InfoMod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Servidor.Model.Pacote">
+    <Position X="8.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAQAAEAgAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Model\Pacote.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Servidor.Model.User">
+    <Position X="8.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAgAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Servidor.GerenciarModulos">
+    <Position X="6.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAIAAgAAAAAAAAAAAAAAAQAAAEAAACEAAAgAA=</HashCode>
+      <FileName>GerenciarModulos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SmarterHouse2.MainPage"
+             xmlns:local="clr-namespace:SmarterHouse2">
+
+    <StackLayout BackgroundColor="#E5EEC7">
+        <StackLayout Padding="30,30,30,20" Margin="15" >
+            <Image Source="Logo_Smarte_House.png"
+                   WidthRequest="300"/>
+            <Label Text="Bem Vindo a Smarter House, para utilizar nosso sistema faça o login" 
+           HorizontalOptions="CenterAndExpand"
+               FontAttributes="Bold"
+               FontSize="Large"
+               TextColor="#5A5050"
+               WidthRequest="300"
+               HorizontalTextAlignment="Center"
+           VerticalOptions="Start"/>
+
+            <StackLayout Spacing="20"  VerticalOptions="CenterAndExpand" Padding="10,40,0,40">
+                <local:CustomEntry Placeholder="Email"
+                       HorizontalOptions="CenterAndExpand"
+                       WidthRequest="275"
+                       TextColor="#E5EE7C"
+                       x:Name="txt_email"
+                       Keyboard="Email"/>
+                <local:CustomEntry Placeholder="Senha"
+                       HorizontalOptions="CenterAndExpand"
+                       WidthRequest="275"
+                       TextColor="#E5EEC7"
+                       x:Name="txt_senha"
+                       IsPassword="True"/>
+            </StackLayout>
+            <StackLayout Padding="10,0,0,700">
+                <Button BackgroundColor="#5A5050"
+                        HorizontalOptions="Center"
+                        WidthRequest="175"
+                        Text="Logar"
+                        CornerRadius="5"
+                        TextColor="#E5EEC7"
+                        x:Name="btn_logar"
+                        Clicked="Btn_logar_Clicked"/>
+
+            </StackLayout>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

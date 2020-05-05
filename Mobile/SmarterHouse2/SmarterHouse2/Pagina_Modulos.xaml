@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SmarterHouse2.Pagina_Modulos"
+             Title="Módulos"
+             xmlns:local ="clr-namespace:SmarterHouse2">
+    <ContentPage.Content>
+        <ScrollView BackgroundColor="#E5EEC7">
+            <StackLayout Spacing="20" Padding="30,10,30,20">
+
+                <Image Source="Logo_Smarte_House" HeightRequest="150" WidthRequest="150"></Image>
+
+                <Label FontSize="Large" 
+                       Text="Para controlar sua casa, selecione um dos Módulos a seguir"
+                       HorizontalOptions="CenterAndExpand"
+                       LineBreakMode="WordWrap"
+                       HorizontalTextAlignment="Center"
+                       TextColor="#2a3638"/>
+
+                <Grid VerticalOptions="FillAndExpand" >
+                    <Grid.RowDefinitions >
+                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="4*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Button BackgroundColor="#5A5050"
+                            Grid.Row="0"
+                            Grid.Column="0"
+                            TextColor="#E5EEC7"
+                            Text="Porta"
+                            Clicked="Btn_Porta"/>
+
+                    <Button BackgroundColor="#5A5050"
+                            Grid.Row="0"
+                            Grid.Column="1"
+                            TextColor="#E5EEC7"
+                            Text="Portão"
+                            Clicked="Btn_Portao"/>
+
+                    <Button BackgroundColor="#5A5050"
+                            Grid.Row="1"
+                            Grid.Column="0"
+                            TextColor="#E5EEC7"
+                            Text="Cortina"
+                            Clicked="Btn_Cortina"/>
+
+                    <Button BackgroundColor="#5A5050"
+                            Grid.Row="1"
+                            Grid.Column="1"
+                            TextColor="#E5EEC7"
+                            Text="Iluminação"
+                            Clicked="Btn_Iluminacao"/>
+
+                    <Button BackgroundColor="#5A5050"
+                            Grid.Row="2"
+                            Grid.Column="0"
+                            TextColor="#E5EEC7"
+                            Text="Ventilação"
+                            Clicked="Btn_Ventilacao"/>
+
+                    <Button BackgroundColor="#547482"
+                            Grid.Row="2"
+                            Grid.Column="1"
+                            TextColor="#E5EEC7"
+                            Text="Logout"
+                            Clicked="Btn_Sair"/>
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

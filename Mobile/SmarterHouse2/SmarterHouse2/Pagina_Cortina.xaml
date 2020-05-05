@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SmarterHouse2.Pagina_Cortina"
+             Title="Cortinas">
+    <ContentPage.Content>
+        <ScrollView BackgroundColor="#E5EEC7">
+            <StackLayout Padding="30,30,30,20">
+                <Grid VerticalOptions="FillAndExpand" RowSpacing="15" Padding="5,50,5,50">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="1*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1.80*"/>
+                    </Grid.ColumnDefinitions>
+
+
+                    <Button Text=""
+                            TextColor="#E5EEC7"
+                            FontSize="Large"
+                            FontAttributes="Bold"
+                            VerticalOptions="FillAndExpand"
+                            BackgroundColor="#5a5050"
+                            CornerRadius="5"
+                            Clicked="Abrir_Clicked"
+                            Grid.Row="0"
+                            Grid.Column="0"
+                            x:Name="btn_cortina"/>
+                                        
+                    <Button BackgroundColor="#5A5050"
+                            Text="Definir Rotina Geral"
+                            TextColor="#E5EEC7"
+                            FontSize="Large"
+                            FontAttributes="Bold"
+                            CornerRadius="5"
+                            Clicked="Btn_def_rotina"
+                          
+                            Grid.Row="1"
+                            Grid.Column="0"/>
+
+                    <Button BackgroundColor="#5A5050"
+                            Text="Excluir todas as  Cortinas"
+                            TextColor="#E5EEC7"
+                            FontSize="Large"
+                            FontAttributes="Bold"
+                            CornerRadius="5"
+                           
+                            Grid.Row="2"
+                            Grid.Column="0"/>
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

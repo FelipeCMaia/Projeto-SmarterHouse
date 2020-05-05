@@ -1,0 +1,77 @@
+C:\Users\CTTarde\Source\Repos\Servidor\Servidor\bin\Debug\netcoreapp2.1\Servidor.deps.json
+C:\Users\CTTarde\Source\Repos\Servidor\Servidor\bin\Debug\netcoreapp2.1\Servidor.runtimeconfig.json
+C:\Users\CTTarde\Source\Repos\Servidor\Servidor\bin\Debug\netcoreapp2.1\Servidor.runtimeconfig.dev.json
+C:\Users\CTTarde\Source\Repos\Servidor\Servidor\bin\Debug\netcoreapp2.1\Servidor.dll
+C:\Users\CTTarde\Source\Repos\Servidor\Servidor\bin\Debug\netcoreapp2.1\Servidor.pdb
+C:\Users\CTTarde\Source\Repos\Servidor\Servidor\obj\Debug\netcoreapp2.1\Servidor.csprojAssemblyReference.cache
+C:\Users\CTTarde\Source\Repos\Servidor\Servidor\obj\Debug\netcoreapp2.1\Servidor.csproj.CoreCompileInputs.cache
+C:\Users\CTTarde\Source\Repos\Servidor\Servidor\obj\Debug\netcoreapp2.1\Servidor.AssemblyInfoInputs.cache
+C:\Users\CTTarde\Source\Repos\Servidor\Servidor\obj\Debug\netcoreapp2.1\Servidor.AssemblyInfo.cs
+C:\Users\CTTarde\Source\Repos\Servidor\Servidor\obj\Debug\netcoreapp2.1\Servidor.dll
+C:\Users\CTTarde\Source\Repos\Servidor\Servidor\obj\Debug\netcoreapp2.1\Servidor.pdb
+C:\Users\CTTarde\Documents\4TI\Servidor SmarterHouse\Servidor\Servidor\bin\Debug\netcoreapp2.1\Servidor.deps.json
+C:\Users\CTTarde\Documents\4TI\Servidor SmarterHouse\Servidor\Servidor\bin\Debug\netcoreapp2.1\Servidor.runtimeconfig.json
+C:\Users\CTTarde\Documents\4TI\Servidor SmarterHouse\Servidor\Servidor\bin\Debug\netcoreapp2.1\Servidor.runtimeconfig.dev.json
+C:\Users\CTTarde\Documents\4TI\Servidor SmarterHouse\Servidor\Servidor\bin\Debug\netcoreapp2.1\Servidor.dll
+C:\Users\CTTarde\Documents\4TI\Servidor SmarterHouse\Servidor\Servidor\bin\Debug\netcoreapp2.1\Servidor.pdb
+C:\Users\CTTarde\Documents\4TI\Servidor SmarterHouse\Servidor\Servidor\obj\Debug\netcoreapp2.1\Servidor.csprojAssemblyReference.cache
+C:\Users\CTTarde\Documents\4TI\Servidor SmarterHouse\Servidor\Servidor\obj\Debug\netcoreapp2.1\Servidor.csproj.CoreCompileInputs.cache
+C:\Users\CTTarde\Documents\4TI\Servidor SmarterHouse\Servidor\Servidor\obj\Debug\netcoreapp2.1\Servidor.AssemblyInfoInputs.cache
+C:\Users\CTTarde\Documents\4TI\Servidor SmarterHouse\Servidor\Servidor\obj\Debug\netcoreapp2.1\Servidor.AssemblyInfo.cs
+C:\Users\CTTarde\Documents\4TI\Servidor SmarterHouse\Servidor\Servidor\obj\Debug\netcoreapp2.1\Servidor.dll
+C:\Users\CTTarde\Documents\4TI\Servidor SmarterHouse\Servidor\Servidor\obj\Debug\netcoreapp2.1\Servidor.pdb
+C:\Users\CTTarde\Desktop\Servidor SmarterHouse\Servidor SmarterHouse\Servidor\Servidor\bin\Debug\netcoreapp2.1\Servidor.deps.json
+C:\Users\CTTarde\Desktop\Servidor SmarterHouse\Servidor SmarterHouse\Servidor\Servidor\bin\Debug\netcoreapp2.1\Servidor.runtimeconfig.json
+C:\Users\CTTarde\Desktop\Servidor SmarterHouse\Servidor SmarterHouse\Servidor\Servidor\bin\Debug\netcoreapp2.1\Servidor.runtimeconfig.dev.json
+C:\Users\CTTarde\Desktop\Servidor SmarterHouse\Servidor SmarterHouse\Servidor\Servidor\bin\Debug\netcoreapp2.1\Servidor.dll
+C:\Users\CTTarde\Desktop\Servidor SmarterHouse\Servidor SmarterHouse\Servidor\Servidor\bin\Debug\netcoreapp2.1\Servidor.pdb
+C:\Users\CTTarde\Desktop\Servidor SmarterHouse\Servidor SmarterHouse\Servidor\Servidor\obj\Debug\netcoreapp2.1\Servidor.csprojAssemblyReference.cache
+C:\Users\CTTarde\Desktop\Servidor SmarterHouse\Servidor SmarterHouse\Servidor\Servidor\obj\Debug\netcoreapp2.1\Servidor.csproj.CoreCompileInputs.cache
+C:\Users\CTTarde\Desktop\Servidor SmarterHouse\Servidor SmarterHouse\Servidor\Servidor\obj\Debug\netcoreapp2.1\Servidor.AssemblyInfoInputs.cache
+C:\Users\CTTarde\Desktop\Servidor SmarterHouse\Servidor SmarterHouse\Servidor\Servidor\obj\Debug\netcoreapp2.1\Servidor.AssemblyInfo.cs
+C:\Users\CTTarde\Desktop\Servidor SmarterHouse\Servidor SmarterHouse\Servidor\Servidor\obj\Debug\netcoreapp2.1\Servidor.dll
+C:\Users\CTTarde\Desktop\Servidor SmarterHouse\Servidor SmarterHouse\Servidor\Servidor\obj\Debug\netcoreapp2.1\Servidor.pdb
+C:\Users\CTTarde\Desktop\Servidor SmarterHouse\Servidor SmarterHouse\Servidor V2\Servidor\bin\Debug\netcoreapp2.1\Servidor.deps.json
+C:\Users\CTTarde\Desktop\Servidor SmarterHouse\Servidor SmarterHouse\Servidor V2\Servidor\bin\Debug\netcoreapp2.1\Servidor.runtimeconfig.json
+C:\Users\CTTarde\Desktop\Servidor SmarterHouse\Servidor SmarterHouse\Servidor V2\Servidor\bin\Debug\netcoreapp2.1\Servidor.runtimeconfig.dev.json
+C:\Users\CTTarde\Desktop\Servidor SmarterHouse\Servidor SmarterHouse\Servidor V2\Servidor\bin\Debug\netcoreapp2.1\Servidor.dll
+C:\Users\CTTarde\Desktop\Servidor SmarterHouse\Servidor SmarterHouse\Servidor V2\Servidor\bin\Debug\netcoreapp2.1\Servidor.pdb
+C:\Users\CTTarde\Desktop\Servidor SmarterHouse\Servidor SmarterHouse\Servidor V2\Servidor\obj\Debug\netcoreapp2.1\Servidor.csprojAssemblyReference.cache
+C:\Users\CTTarde\Desktop\Servidor SmarterHouse\Servidor SmarterHouse\Servidor V2\Servidor\obj\Debug\netcoreapp2.1\Servidor.csproj.CoreCompileInputs.cache
+C:\Users\CTTarde\Desktop\Servidor SmarterHouse\Servidor SmarterHouse\Servidor V2\Servidor\obj\Debug\netcoreapp2.1\Servidor.AssemblyInfoInputs.cache
+C:\Users\CTTarde\Desktop\Servidor SmarterHouse\Servidor SmarterHouse\Servidor V2\Servidor\obj\Debug\netcoreapp2.1\Servidor.AssemblyInfo.cs
+C:\Users\CTTarde\Desktop\Servidor SmarterHouse\Servidor SmarterHouse\Servidor V2\Servidor\obj\Debug\netcoreapp2.1\Servidor.dll
+C:\Users\CTTarde\Desktop\Servidor SmarterHouse\Servidor SmarterHouse\Servidor V2\Servidor\obj\Debug\netcoreapp2.1\Servidor.pdb
+C:\Users\felip\OneDrive\Área de Trabalho\Servidor\Servidor\bin\Debug\netcoreapp2.1\Servidor.deps.json
+C:\Users\felip\OneDrive\Área de Trabalho\Servidor\Servidor\bin\Debug\netcoreapp2.1\Servidor.runtimeconfig.json
+C:\Users\felip\OneDrive\Área de Trabalho\Servidor\Servidor\bin\Debug\netcoreapp2.1\Servidor.runtimeconfig.dev.json
+C:\Users\felip\OneDrive\Área de Trabalho\Servidor\Servidor\bin\Debug\netcoreapp2.1\Servidor.dll
+C:\Users\felip\OneDrive\Área de Trabalho\Servidor\Servidor\bin\Debug\netcoreapp2.1\Servidor.pdb
+C:\Users\felip\OneDrive\Área de Trabalho\Servidor\Servidor\obj\Debug\netcoreapp2.1\Servidor.csprojAssemblyReference.cache
+C:\Users\felip\OneDrive\Área de Trabalho\Servidor\Servidor\obj\Debug\netcoreapp2.1\Servidor.csproj.CoreCompileInputs.cache
+C:\Users\felip\OneDrive\Área de Trabalho\Servidor\Servidor\obj\Debug\netcoreapp2.1\Servidor.AssemblyInfoInputs.cache
+C:\Users\felip\OneDrive\Área de Trabalho\Servidor\Servidor\obj\Debug\netcoreapp2.1\Servidor.AssemblyInfo.cs
+C:\Users\felip\OneDrive\Área de Trabalho\Servidor\Servidor\obj\Debug\netcoreapp2.1\Servidor.dll
+C:\Users\felip\OneDrive\Área de Trabalho\Servidor\Servidor\obj\Debug\netcoreapp2.1\Servidor.pdb
+C:\Users\CTTarde\Desktop\lol\Servidor\Servidor\bin\Debug\netcoreapp2.1\Servidor.deps.json
+C:\Users\CTTarde\Desktop\lol\Servidor\Servidor\bin\Debug\netcoreapp2.1\Servidor.runtimeconfig.json
+C:\Users\CTTarde\Desktop\lol\Servidor\Servidor\bin\Debug\netcoreapp2.1\Servidor.runtimeconfig.dev.json
+C:\Users\CTTarde\Desktop\lol\Servidor\Servidor\bin\Debug\netcoreapp2.1\Servidor.dll
+C:\Users\CTTarde\Desktop\lol\Servidor\Servidor\bin\Debug\netcoreapp2.1\Servidor.pdb
+C:\Users\CTTarde\Desktop\lol\Servidor\Servidor\obj\Debug\netcoreapp2.1\Servidor.csprojAssemblyReference.cache
+C:\Users\CTTarde\Desktop\lol\Servidor\Servidor\obj\Debug\netcoreapp2.1\Servidor.csproj.CoreCompileInputs.cache
+C:\Users\CTTarde\Desktop\lol\Servidor\Servidor\obj\Debug\netcoreapp2.1\Servidor.AssemblyInfoInputs.cache
+C:\Users\CTTarde\Desktop\lol\Servidor\Servidor\obj\Debug\netcoreapp2.1\Servidor.AssemblyInfo.cs
+C:\Users\CTTarde\Desktop\lol\Servidor\Servidor\obj\Debug\netcoreapp2.1\Servidor.dll
+C:\Users\CTTarde\Desktop\lol\Servidor\Servidor\obj\Debug\netcoreapp2.1\Servidor.pdb
+C:\Users\CTTarde\Desktop\lol\ServidorV3\Servidor\bin\Debug\netcoreapp2.1\Servidor.deps.json
+C:\Users\CTTarde\Desktop\lol\ServidorV3\Servidor\bin\Debug\netcoreapp2.1\Servidor.runtimeconfig.json
+C:\Users\CTTarde\Desktop\lol\ServidorV3\Servidor\bin\Debug\netcoreapp2.1\Servidor.runtimeconfig.dev.json
+C:\Users\CTTarde\Desktop\lol\ServidorV3\Servidor\bin\Debug\netcoreapp2.1\Servidor.dll
+C:\Users\CTTarde\Desktop\lol\ServidorV3\Servidor\bin\Debug\netcoreapp2.1\Servidor.pdb
+C:\Users\CTTarde\Desktop\lol\ServidorV3\Servidor\obj\Debug\netcoreapp2.1\Servidor.csprojAssemblyReference.cache
+C:\Users\CTTarde\Desktop\lol\ServidorV3\Servidor\obj\Debug\netcoreapp2.1\Servidor.csproj.CoreCompileInputs.cache
+C:\Users\CTTarde\Desktop\lol\ServidorV3\Servidor\obj\Debug\netcoreapp2.1\Servidor.AssemblyInfoInputs.cache
+C:\Users\CTTarde\Desktop\lol\ServidorV3\Servidor\obj\Debug\netcoreapp2.1\Servidor.AssemblyInfo.cs
+C:\Users\CTTarde\Desktop\lol\ServidorV3\Servidor\obj\Debug\netcoreapp2.1\Servidor.dll
+C:\Users\CTTarde\Desktop\lol\ServidorV3\Servidor\obj\Debug\netcoreapp2.1\Servidor.pdb

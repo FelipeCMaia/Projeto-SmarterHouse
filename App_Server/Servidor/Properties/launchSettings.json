@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Servidor": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}

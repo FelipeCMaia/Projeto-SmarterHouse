@@ -1,0 +1,14 @@
+C:\Users\CTTarde\Desktop\lol\ServidorV3\Servidor\bin\Release\netcoreapp2.1\win-x86\hostpolicy.dll
+C:\Users\CTTarde\Desktop\lol\ServidorV3\Servidor\bin\Release\netcoreapp2.1\win-x86\hostfxr.dll
+C:\Users\CTTarde\Desktop\lol\ServidorV3\Servidor\bin\Release\netcoreapp2.1\win-x86\Servidor.exe
+C:\Users\CTTarde\Desktop\lol\ServidorV3\Servidor\bin\Release\netcoreapp2.1\win-x86\Servidor.deps.json
+C:\Users\CTTarde\Desktop\lol\ServidorV3\Servidor\bin\Release\netcoreapp2.1\win-x86\Servidor.runtimeconfig.json
+C:\Users\CTTarde\Desktop\lol\ServidorV3\Servidor\bin\Release\netcoreapp2.1\win-x86\Servidor.runtimeconfig.dev.json
+C:\Users\CTTarde\Desktop\lol\ServidorV3\Servidor\bin\Release\netcoreapp2.1\win-x86\Servidor.dll
+C:\Users\CTTarde\Desktop\lol\ServidorV3\Servidor\bin\Release\netcoreapp2.1\win-x86\Servidor.pdb
+C:\Users\CTTarde\Desktop\lol\ServidorV3\Servidor\obj\Release\netcoreapp2.1\win-x86\Servidor.csprojAssemblyReference.cache
+C:\Users\CTTarde\Desktop\lol\ServidorV3\Servidor\obj\Release\netcoreapp2.1\win-x86\Servidor.csproj.CoreCompileInputs.cache
+C:\Users\CTTarde\Desktop\lol\ServidorV3\Servidor\obj\Release\netcoreapp2.1\win-x86\Servidor.AssemblyInfoInputs.cache
+C:\Users\CTTarde\Desktop\lol\ServidorV3\Servidor\obj\Release\netcoreapp2.1\win-x86\Servidor.AssemblyInfo.cs
+C:\Users\CTTarde\Desktop\lol\ServidorV3\Servidor\obj\Release\netcoreapp2.1\win-x86\Servidor.dll
+C:\Users\CTTarde\Desktop\lol\ServidorV3\Servidor\obj\Release\netcoreapp2.1\win-x86\Servidor.pdb

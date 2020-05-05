@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SmarterHouse2.Pagina_RotinaIluminacao"
+             xmlns:local ="clr-namespace:SmarterHouse2"
+             Title="Rotina Luzes">
+    
+    <ContentPage.Content>
+        <ScrollView BackgroundColor="#E5EEC7">
+            <StackLayout Padding="20,40,20,40">
+                <StackLayout>
+                    <StackLayout Padding="20,0,20,0">
+                        <local:CustomPicker Title="Qual Lâmpada?"
+                                HorizontalOptions="FillAndExpand"
+                                TextColor="#E5EEC7"
+                                TitleColor="#E5EEC7"
+                                FontAttributes="Bold"
+                                x:Name="Lampada_Picker">
+
+                            <Picker.Items>
+                                <x:String>Lâmpada 1</x:String>
+                                <x:String>Lâmpada 2</x:String>
+                                <x:String>Todas as Lâmpadas</x:String>
+                            </Picker.Items>
+                        </local:CustomPicker>
+                    </StackLayout>
+
+                    <Grid VerticalOptions="FillAndExpand"
+                          Padding="20,10,20,10">
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+
+                        </Grid.ColumnDefinitions>
+
+                        <Label Text="Abrir"
+                               TextColor="#5A5050"
+                               FontSize="Large"
+                               FontAttributes="Bold"
+                               HorizontalOptions="CenterAndExpand"
+                               VerticalOptions="CenterAndExpand"
+                               Grid.Row="0"
+                               Grid.Column="0"/>
+                        <TimePicker x:Name="_timepicker"
+                                    TextColor="#5A5050"
+                                    Time="00:00:00"
+                                    Format="t"
+                                    HorizontalOptions="CenterAndExpand"
+                                    FontAttributes="Bold"
+                                    FontSize="Large"
+                                    Grid.Row="0"
+                                    Grid.Column="1"/>
+
+                        <Label Text="Fechar"
+                               TextColor="#5A5050"
+                               FontSize="Large"
+                               FontAttributes="Bold"
+                               HorizontalOptions="CenterAndExpand"
+                               VerticalOptions="CenterAndExpand"
+                               Grid.Row="1"
+                               Grid.Column="0"
+                               />
+                        <TimePicker x:Name="_timepicker2"
+                                    TextColor="#5A5050"
+                                    Time="00:00:00"
+                                    Format="t"
+                                    HorizontalOptions="CenterAndExpand"
+                                    FontAttributes="Bold"
+                                    FontSize="Large"
+                                    Grid.Row="1"
+                                    Grid.Column="1"/>
+                    </Grid>
+
+                </StackLayout>
+                <StackLayout Padding="30,0,30,0">
+                    <Button Text="Definir"
+                        BackgroundColor="#5A5050"
+                        TextColor="#E5EEC7"
+                        WidthRequest="125"
+                        HorizontalOptions="FillAndExpand"
+                        FontAttributes="Bold"
+                        CornerRadius="5"
+                        Clicked="DefinirRotina_Clicked"/>
+                </StackLayout>
+                <StackLayout Padding="30,20,30,20"
+                             HeightRequest="200">
+                    <Label Text="Rotinas"
+                               TextColor="#5A5050"
+                               FontSize="Large"
+                               FontAttributes="Bold"
+                               VerticalOptions="StartAndExpand"
+                               HorizontalOptions="CenterAndExpand"/>
+                    <Frame Padding="5,5,5,5"
+                               BackgroundColor="#A2D4AB"
+                               CornerRadius="5">
+                        <ScrollView>
+                            <ListView x:Name="listview">
+                                <ListView.ItemTemplate>
+                                    <DataTemplate>
+                                        <ViewCell>
+                                            <StackLayout>
+                                                <Label Text="{Binding Temperatura}"/>
+                                                
+                                                <Label Text="{Binding Horario}"/>
+                                            </StackLayout>
+                                            <ViewCell.ContextActions>
+                                               
+                                                <MenuItem Text="Deletar" IsDestructive="True" Clicked="MenuItem_Clicked" CommandParameter="{Binding .}" IconImageSource="lixeira.png"/>
+                                            </ViewCell.ContextActions>
+                                        </ViewCell>
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>
+                            </ListView>
+                        </ScrollView>
+                    </Frame>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

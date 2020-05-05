@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Title = "Luzes"
+             x:Class="SmarterHouse2.Pagina_Iluminacao">
+    <ContentPage.Content>
+        <ScrollView BackgroundColor="#E5EEC7" x:Name="scrollview">
+            <StackLayout Padding="30,30,30,20" Spacing="20" Margin="15">
+
+                <Grid VerticalOptions="FillAndExpand"
+                      x:Name="_grid"
+                      RowSpacing="15"
+                      Padding="5,40,5,30">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Button BackgroundColor="#5A5050"
+                           Grid.Column="0"
+                           Grid.Row="1"
+                           Padding="0"
+                           CornerRadius="5"
+                            Text="Ascender/Desligar Lâmpadas"
+                               TextColor="#E5EEC7"
+                               FontSize="Large"
+                            FontAttributes="Bold"
+                            Clicked="Lampada1_Clicked"
+                            x:Name="lampada1"/>
+
+                    <Button BackgroundColor="#5A5050"
+                            Grid.Column="0"
+                            Grid.Row="2"
+                            Padding="0"
+                            CornerRadius="5"
+                            Text="Ascender/Desligar Lâmpadas 2"
+                            TextColor="#E5EEC7"
+                            FontSize="Large"
+                            FontAttributes="Bold"
+                            Clicked="Lampada2_Clicked"
+                            x:Name="lampada2"/>
+
+                </Grid>
+
+                <Button Text="Definir uma rotina"
+                        BackgroundColor="#3EACA8"
+                        TextColor="#E5EEC7"
+                        WidthRequest="275"
+                        HeightRequest="50"
+                        HorizontalOptions="Center"
+                        FontAttributes="Bold"
+                        CornerRadius="5"
+                        Clicked="Button_Clicked"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

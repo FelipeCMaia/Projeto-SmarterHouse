@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SmarterHouse2.Pagina_Ventilacao"
+             Title="Ventilação"
+             xmlns:local ="clr-namespace:SmarterHouse2">
+    <ContentPage.Content>
+        <ScrollView BackgroundColor="#E5EEC7">
+            <StackLayout Padding="30,30,30,20">
+                <Grid VerticalOptions="CenterAndExpand" Padding="10,50" RowSpacing="25">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="125"/>
+                        <RowDefinition Height="75"/>
+                        <RowDefinition Height="125"/>
+                        <RowDefinition Height="70"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+                    <Button BackgroundColor="#5A5050"
+                            Text="Ligar Ventilação"
+                            TextColor="#E5EEC7"
+                            FontSize="Large"
+                            FontAttributes="Bold"
+                            Grid.Row="0"
+                            Grid.Column="0"
+                            CornerRadius="5"
+                            Clicked="LigarVent_Clicked"
+                            x:Name="LigarVent"/>
+                    <Button BackgroundColor="#5A5050"
+                            Text="Definir Temperatura de Inicialização"
+                            TextColor="#E5EEC7"
+                            FontSize="Large"
+                            FontAttributes="Bold"
+                            Grid.Row="2"
+                            Grid.Column="0"
+                            CornerRadius="5"
+                            Clicked="DefinirTemperatura_Clicked"/>
+                    <Button BackgroundColor="#5A5050"
+                            Text="Cancelar Temperatura de Inicialização"
+                            TextColor="#E5EEC7"
+                            FontSize="Large"
+                            FontAttributes="Bold"
+                            Grid.Row="3"
+                            Grid.Column="0"
+                            CornerRadius="5"
+                            Clicked="CancelarTemperatura_Clicked"/>
+                    <Frame x:Name="frame1" BackgroundColor="#A2D4AB" Grid.Row="1" CornerRadius="5">
+                        <StackLayout VerticalOptions="Center">
+                            <Slider x:Name="slide_temp"
+                            Maximum="40"
+                            Minimum="10"                       
+                            MinimumTrackColor="#3EACA8"
+                            MaximumTrackColor="#A2D4AB"
+                                    ValueChanged="Slide_temp_ValueChanged"/>
+
+                            <Label x:Name="slider_value" TextColor="Black" FontSize="18"/>
+                        </StackLayout>
+                    </Frame>
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
