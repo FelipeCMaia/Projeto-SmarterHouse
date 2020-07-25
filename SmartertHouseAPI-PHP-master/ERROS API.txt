@@ -1,0 +1,27 @@
+erro : 
+	000 - OK
+	001 - erro inesperado
+	002 - email invalido
+	003 - senha invalida
+	004 - email ja existe
+	005 - Erro Inseperado ao Cadastrar Usuario
+	007 - Erro ao Atualizar Dados do Gráfico
+	008 - Token de acesso Expirado
+	009 - RefreshToken inexistente ou expirado
+	011 - TagHome Inválida
+	012 - Erro Inseperado ao Atualizar Usuario
+	013 - Não foi possivel Remover Usuário
+	014 - Um ou mais valores faltando no corpo da requisição
+	015 - Erro Inseperado ao deletar Usuario
+	016 - Usuario não existe na base de dados
+	017 - Falha ao Selecionar o Usuario 
+	018 - Erro Inseperado ao Selecionar Usuarios
+	019 - Entrada incorreta no corpo da requisição
+	020 - Erro Inseperado ao Criar Token
+	021 - Erro Inseperado ao Criar RefreshToken
+	022 - Não foi possivel criar o RefreshToken porque não foram obtidas nenhuma informação do usuário através de seu email 
+	023 - Erro ao buscar informações dos gráficos
+	024 - Erro na contagem de módulos
+	025 - Erro na seleção da Datas dos módulos
+	026 - Erro na seleção do id dos módulos
+	027 - Dados não atualizados
